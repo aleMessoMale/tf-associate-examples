@@ -1,6 +1,11 @@
+#contains sensitive information like secret and password, not commit it
 terraform.tfstate
 terraform.tfstate.backup
 .terraform
 .terraform.lock.hcl
+#contains sensitive information like secret and password
 terraform.tfvars
+*.tfvars
 ec2_key_pair_auto.pem
+modules-example/projects/projectA/terraform.tfvars
+crash.log
